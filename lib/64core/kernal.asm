@@ -18,10 +18,10 @@
   .label clrchn = $FFCC
   .label load = $FFD5
   .label save = $FFD8
-  .label restor = $ff8a
-  .label plot = $fff0
-  .label clear_screen = $e544
-  .label chrout_screen = $e716
+  .label restor = $FF8A
+  .label plot = $FFF0
+  .label clear_screen = $E544
+  .label chrout_screen = $E716
 } 
 
 .pseudocommand kernal_plot_get column: row {
